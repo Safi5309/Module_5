@@ -89,6 +89,10 @@ nav a {
 }
 
 /* main section styles */
+    main{
+        max-width: 1140px;
+        margin: auto;
+    }
 /* about section atyles */
 .about {
     margin: 130px 0;
@@ -111,4 +115,19 @@ nav a {
     font-size: 18px;
     font-weight: 400;
 
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+text-align: center;
+
+}
+.info-title{
+    color: rgba(117, 117, 117, 1);
+}
+.info-discription{
+    color: rgba(71, 71, 71, 1);
 }
