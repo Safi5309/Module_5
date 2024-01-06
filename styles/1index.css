@@ -37,7 +37,7 @@ nav a {
     color: #FD6E0A;
 }
 
-.primary-btn {
+.primary-btn{
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -45,15 +45,14 @@ nav a {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
-
 }
 
 /* header reletaed styles */
 .head {
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -185,4 +184,95 @@ main {
     font-size: 30px;
     font-weight: 700;
 }
- 
+
+/* .resume-colmn{
+    display: flex;
+} */
+.resume-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-right:0px 100px,0px,0px;  */
+    /* padding-right: 71px; */
+    gap: 70px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.resume-institution {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.resume-item-discription {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.cv {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+
+/* Footer styles */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 230px;
+}
+
+.section-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    padding-right: 24px;
+}
+
+.contact input[type="text"], .contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 461px;
+
+}
+.btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
